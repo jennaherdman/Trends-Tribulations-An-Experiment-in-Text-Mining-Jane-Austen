@@ -47,7 +47,7 @@ An article entitled “The Pitfalls of Using Google Ngram to Study Language” f
 * challenging because need to know which name the author calls him by - i.e. just searching for “Darcy” is insufficient because it might refer to his sister, “Miss Darcy”
 * puts a character talking about him on equal footing with an actual appearance  
 
-<h3>*Pride and Prejudice*</h3>
+<h3>Pride and Prejudice</h3>
 
 ![Pride and Prejudice](https://github.com/jennaherdman/Austen-text-mining/blob/master/p%20and%20p%20terms.jpeg?raw=true)
 
@@ -58,7 +58,7 @@ An article entitled “The Pitfalls of Using Google Ngram to Study Language” f
 * Wickham disappears and reappears consistently - at the end, he becomes important not as a rival for Elizabeth’s heart, but because he elopes with her sister 
 * Darcy triumphs at the end 
 
-<h3>*Sense and Sensibility*</h3>
+<h3>Sense and Sensibility</h3>
 
 ![Sense and Sensibility](https://github.com/jennaherdman/Austen-text-mining/blob/master/sense-trends.jpeg?raw=true)
 
@@ -69,7 +69,7 @@ An article entitled “The Pitfalls of Using Google Ngram to Study Language” f
 * Brandon is steady but not dramatic - the aesthetic quality of the graph reflects the drama of the novel 
 * in comparison to P&P, Willougby’s trend more closely resembles Darcy’s 
 
-<h3>*Northanger Abbey* and *Mansfield Park*</h3>
+<h3>Northanger Abbey and Mansfield Park</h3>
 
 ![Northanger Abbey](https://github.com/jennaherdman/Austen-text-mining/blob/master/northanger-trends.png?raw=true)
 
