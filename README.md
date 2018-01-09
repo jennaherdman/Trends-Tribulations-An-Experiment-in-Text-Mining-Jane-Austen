@@ -31,7 +31,7 @@ Google Ngrams is a tool created for mining the Google Books corpus for linguisti
 
 [Follow this link for an interactive version of this graph](https://books.google.com/ngrams/graph?content=Northanger+Abbey%2CPride+and+Prejudice%2CSense+and+Sensibility%2CMansfield+Park&year_start=1800&year_end=2010&corpus=15&smoothing=3&share=&direct_url=t1%3B%2CNorthanger%20Abbey%3B%2Cc0%3B.t1%3B%2CPride%20and%20Prejudice%3B%2Cc0%3B.t1%3B%2CSense%20and%20Sensibility%3B%2Cc0%3B.t1%3B%2CMansfield%20Park%3B%2Cc0). 
 
-<h3>Findings<h3>
+<h3>Findings</h3>
 
 * opted out of using *Emma* or *Persuasion* as I thought the titles were too generic to return accurate results 
 * *Pride and Prejudice* is always the most popular 
