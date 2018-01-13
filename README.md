@@ -95,7 +95,7 @@ An article entitled “The Pitfalls of Using Google Ngram to Study Language” f
 
 <h1>Thank you!</h1>
 
-<center><h2>Works Cited</center></h2>
+<h2>Works Cited</h2>
 Austen, Jane. Mansfield Park. n.p. n.d. Project Gutenberg. Web. 28 Oct. 2016. 
 
 ---. Northanger Abbey. n.p. n.d. Project Gutenberg. Web. 28 Oct. 2016.
