@@ -5,74 +5,66 @@ This project applies tools from the digital text-mining platform Voyant to four 
 
 <h2>Methods</h2>
 
-[Voyant, an open-access program directed by Stéfan Sinclair and Geoffrey Rockwell](http://docs.voyant-tools.org/tools/), comprises of several text mining and visualization tools. When conceptualizing this experiment, I built on a [previous project](https://jennaherdman.gitbooks.io/a-digital-humanities-primer-for-english-students/
-content/Text%20Analysis%20Assignment.html) in which I used Voyant’s Terms, Knots, and Bubblelines tools to trace the recurring appearances of minor characters in Charles Dickens’s David Copperfield. Though these results were experimental and not conclusive, I argued that the tools offered a useful way of manipulating the text and of visualizing research questions. Here, I apply this method to Austen novels <i>Pride and Prejudice</i>, <i>Sense and Sensibility</i>, <i>Northanger Abbey</i>, and <i>Mansfield Park</i> by producing term frequency charts which represent the romantic heroes and rivals of each novel. Austen’s romances rely on the protagonist rejecting the “wrong” suitor in favour of the “right” man: for example, in <i>Pride and Prejudice</i> and <i>Sense and Sensibility</i>, the heroine can only recognize the worthiness of her future husband when he has demonstrated the immoral nature of his rival. In <i>Northanger Abbey</i> and <i>Mansfield Park</i>, the wrong suitor is never a real contender for the heroine’s hand, though he must be revealed to be inferior in order for the heroine to go on to marry the hero. I predicted that there would be similar patterns in each of these two pairs of novels based on their similar plot lines, and that the hero would be more dominant than his rival in each graph.
+[Voyant, an open-access program directed by Stéfan Sinclair and Geoffrey Rockwell](http://docs.voyant-tools.org/tools/), comprises of several text mining and visualization tools. When conceptualizing this experiment, I built on a [previous project](https://jennaherdman.gitbooks.io/a-digital-humanities-primer-for-english-students/content/Text%20Analysis%20Assignment.html) in which I used Voyant’s Terms, Knots, and Bubblelines tools to trace the recurring appearances of minor characters in Charles Dickens’s David Copperfield. Though these results were experimental and not conclusive, I argued that the tools offered a useful way of manipulating the text and of visualizing research questions. Here, I apply this method to Austen novels <i>Pride and Prejudice</i>, <i>Sense and Sensibility</i>, <i>Northanger Abbey</i>, and <i>Mansfield Park</i> by producing term frequency charts which represent the romantic heroes and rivals of each novel. Austen’s romances rely on the protagonist rejecting the “wrong” suitor in favour of the “right” man: for example, in <i>Pride and Prejudice</i> and <i>Sense and Sensibility</i>, the heroine can only recognize the worthiness of her future husband when he has demonstrated the immoral nature of his rival. In <i>Northanger Abbey</i> and <i>Mansfield Park</i>, the wrong suitor is never a real contender for the heroine’s hand, though he must be revealed to be inferior in order for the heroine to go on to marry the hero. I predicted that there would be similar patterns in each of these two pairs of novels based on their similar plot lines, and that the hero would be more dominant than his rival in each graph.
 
 In order to graph the romantic rivalries, I used the Terms tool to look at the frequencies of each male competitor’s name, going on the assumption that a high frequency of the character’s name signifies his importance to the protagonist or the text. Using term frequencies to track plot development in Austen is challenging, however, because it requires a close knowledge of the names that the author uses to refer to each character. The suitor’s name might appear not even when he is absent if the characters are talking about him. Consider, for example, how Mrs. Bennet talks a great deal about Mr. Bingley’s arrival in Meryton before he even appears as a character. When using these tools, then, a mention of the suitor’s name has equal weight in the graph as do his actual actions. Thus, this method requires thinking about each mention of the character as a sign of his importance to the text. Furthermore, the algorithms to measure these text frequencies require pre-existing knowledge of the text’s semantics. For example, in <i>Pride and Prejudice</i>, Darcy is usually referred to as “Mr. Darcy,” as opposed to his first name. Also his sister is called “Miss Darcy” in the novel, and simply searching for their last name would skew the results. Likewise, in Mansfield Park, Fanny’s main love interest, Edmund Bertram, is her cousin, and thus is usually called by his first name, while his brother Tom is more commonly called “Mr. Bertram: searching for the term frequency of “Mr. Bertram” would thus not represent Edmund at all.
 
-tldr; 
-
-* used the Terms tool on *Voyant* to look at name frequencies of the romantic hero and rival in four Austen novels 
-* challenging because need to know which name the author calls him by - i.e. just searching for “Darcy” is insufficient because it might refer to his sister, “Miss Darcy”
-* puts a character talking about him on equal footing with an actual appearance  
-
-<h2>Romantic Rivalries in Jane Austen</h2>
+<h2>I. Romantic Rivalries in Jane Austen: Pride and Prejudice and Sense and Sensibility</h2>
 
 <h3>Pride and Prejudice</h3>
 
+In my graph of Pride and Prejudice, I mapped the frequency of “Mr. Darcy” against mentions of “Wickham.” The x-axis represents the text of the novel divided into 10 equal segments.  I found that Darcy prevails in importance throughout most of the novel, though I was surprised to see mentions of his name decline somewhat in the second half. I was surprised to see Wickham’s importance consistently rise throughout the novel. It is curious how, as Elizabeth’s affection grows for Darcy, the frequency of his name decreases slightly. Is Darcy so important in the first half because Elizabeth focuses on hating him, while in the second half, she spends more time thinking about her family and less about her dislike for Darcy? Does Wickham rise in importance for the third time in Segments 8-9 when he runs away with Lydia – and thus comes to represent a greater threat that dominates that moment? However, as predicted, the end of the novel sees Darcy rising at the end, and overall, his name frequency is more dominant than his rival’s. 
+
 ![Pride and Prejudice](https://github.com/jennaherdman/Austen-text-mining/blob/master/p%20and%20p%20terms.jpeg?raw=true)
+
+Romantic rivals in Pride and Prejudice. This graph compares the term frequencies of the hero Mr. Darcy (total frequency=272) and the immoral rival, Wickham (total frequency=194).  Made using the “Terms” tool on Voyant.
 
 [Follow this link for an interactive version of this graph](http://voyant-tools.org/?corpus=aa5342d4d854354fea80232f149ecf5e&query=wickham*&query=mr%20darcy&withDistributions=raw&docIndex=0&mode=document&view=Trends) 
 
-<h3>Findings</h3>
-* moments of intersection between the two men 
-* Wickham disappears and reappears consistently - at the end, he becomes important not as a rival for Elizabeth’s heart, but because he elopes with her sister 
-* Darcy triumphs at the end 
-
 <h3>Sense and Sensibility</h3>
+
+A second graph (see Fig. 2) looks at the frequency trends of “Willoughby” and “Colonel,” Brandon, the two contenders for Marianne Dashwood’s heart in Sense and Sensibility. I made the choice to use the frequencies of the word “Colonel” instead of “Brandon” in the graph, as this reflects the title that is used in the novel. Like Wickham, Willoughby appears as a handsome, dashing hero, who turns out to have a dark past and to be pursuing a wealthy wife. Colonel Brandon is initially ignored by Marianne, but she eventually comes around and marries him after he exposes Willoughby’s treachery. What is notable about this graph is how the two suitors seem to oppose one another: in the first two-thirds of the novel, Willoughby is of the upmost importance, while Brandon is kept in the background. At Segment 8, Brandon triumphs for the first time in importance, entering the lives of the sisters and suggesting that he is there to stay, while Willoughby fades into Brandon’s initial place of reduced importance. 
 
 ![Sense and Sensibility](https://github.com/jennaherdman/Austen-text-mining/blob/master/sense-trends.jpeg?raw=true)
 
+Romantic rivals in Sense and Sensibility. This graph compares the term frequencies of Marianne’s eventual husband, Colonel Brandon (total frequency =176) and his rival for her love, the treacherous Mr. Willoughby (total frequency = 219).  Made using the “Terms” tool on Voyant.
+
 [Follow this link for an interactive version of this graph](http://voyant-tools.org/?corpus=b521a70350c06325e841ed66af5c4e29&query=colonel&query=willoughby*&withDistributions=raw&mode=document&view=Trends).
 
-<h3>Findings</h3> 
-* Willoughby appears far more important than Colonel Brandon, except for in the last few segments 
-* Brandon is steady but not dramatic - the aesthetic quality of the graph reflects the drama of the novel 
-* in comparison to P&P, Willougby’s trend more closely resembles Darcy’s 
+<h3>Comparisons</h3> 
 
-<h3>Northanger Abbey and Mansfield Park</h3>
+Both Fig. 1 and Fig. 2 show the triumph of the chosen husband at the end (unsurprisingly). Though Wickham’s importance is more consistent than Willoughby’s, the contrast between Willoughby’s and the Colonel’s trends in Fig. 2 is far more dramatic than the contrast between Darcy and Wickham in Fig. 1. Indeed, though Brandon is the one who marries Marianne, Darcy and Willoughby’s trends are similar. Does this pattern suggest that Willoughby is the true romantic hero of Sense and Sensibility, despite his flaws and his betrayal of Marianne? Should my future analyses of Willoughby be to treat him more like Darcy, the romantic hero, than like Wickham, the immoral antagonist? In this sense, the graphs contradict my initial hypothesis that the husband’s trend would prove more dominant.
+
+<h2>Northanger Abbey and Mansfield Park</h2>
+
+In comparison to the patterns in <i>Pride and Prejudice</i> and <i>Sense and Sensibility</i>, the graphs of romantic rivalries in Northanger Abbey and Mansfield Park show a more linear and less fluctuating trend for the romantic suitors in each of the novels. Instead of rapidly moving from high to low frequencies, they are more steady and consistent throughout the novels. This trend could reflect a structural element of the texts, or demonstrate how the suitors in both Northanger Abbey and Mansfield Park are more consistently present. This pattern makes sense, as the heroines are guests in the homes of the men they eventually marry - Henry Tilney is the son of the owner of Northanger Abbey, while Edmund is the son of the master of Mansfield Park. It is also interesting how in Fig. 3, from Segment 4 on there is a consistent correlation between the trends of Tilney and Thorpe. In Northanger Abbey, the romantic hero appears at a higher frequency for most of the novel, while in Mansfield Park, I was surprised to see that Henry Crawford maintains a consistently higher frequency than Edmund. Due to my findings in Figs. 1, 2, and 3, where the hero and the rival are either closely matched or the hero triumphs, this trend in Fig. 4 makes me suspicious that there is an error in the way I modeled this graph. This inconsistency speaks to the difficulties of trusting these kinds of experiments when using a tool like Voyant, which can only really scratch the surface of text mining potentialities.
 
 ![Northanger Abbey](https://github.com/jennaherdman/Austen-text-mining/blob/master/northanger-trends.png?raw=true)
+
+Romantic rivals in Northanger Abbey. This graph compares the term frequencies of the romantic hero and Catherine’s eventual husband, Henry Tilney (total frequency=514), with a rival for her affection, John Thorpe (total frequency=372). Made using the “Terms” tool on Voyant.
 
 [Follow this link for an interactive version of this graph](http://voyant-tools.org/?corpus=e218ddd3ea097161c163a80f75c38f85&query=john|mr.%20thorpe*&query=henry|mr.%20tilney&withDistributions=raw&docIndex=0&mode=document&view=Trends).
 
 ![Mansfield Park](https://github.com/jennaherdman/Austen-text-mining/blob/master/mansfield.png?raw=true)
 
+Romantic rivals in Mansfield Park. This graph compares the term frequencies of Fanny Price’s cousin, Edmund (total frequency=364), whom she loves and marries, and Henry Crawford (frequency=1148), who falls in love with and proposes to Fanny only to be rejected. Made using the “Terms” tool on Voyant.
+
 [Follow this link for an interactive version of this graph](http://voyant-tools.org/?corpus=a99f30c20fdc2d887c74f9bc78c2eddf&query=edmund&query=henry|mr.%20crawford&withDistributions=raw&docIndex=0&mode=document&view=Trends).
 
-<h3>Findings</h3>
+<h2>II. Links - Collocation terms in *Sense and Sensibility*</h2>
 
-* far more similar to each other than to P&P and S&S 
-* the trends in each graph seem to mirror one another in how they increase and decrease 
-* *Northanger Abbey* sees the hero/husband be more prominent throughout, while in *Mansfield Park* the rival is far more prominent - is there a mistake in the final graph? 
-* because the final graph is so different from the first three, I am suspicious about its authenticity
+Though this project has focused on looking at the frequencies of names to study romance plots, there are many other tools that might be useful for creatively manipulating texts like Austen’s. For example, one experiment that I did in the process of this research was to use the Links tool to visualize a map of collocates in Sense and Sensibility (see Fig. 5). The results of this map demonstrate an interesting distinction between the collocates of “Marianne” and “Marianne’s.” Why should there be a difference between the noun and the possessive? My hypothesis is that the possessive “Marianne’s” appears most commonly in the voice of the narrator when they are commenting on Marianne and who condemns Marianne’s excessive sensibility – her tendency to display her “feelings,” and to feel great “affection” with her “heart.” In contrast, the word “Marianne” is perhaps used more often when Marianne herself is partaking in an action, or when the other characters are speaking to or about her. The link between “Marianne” and “Willoughby” is far stronger than the one between “Marianne” and “Colonel Brandon,” her eventual husband, reinforcing my hypothesis from looking at Fig. 2 that perhaps Willoughby is far more important than Marianne’s future husband to the plot of the novel. 
 
-<h2>Links - Collocation terms in *Sense and Sensibility*</h2>
+However, this graph is incomplete and was specifically curated. It relies greatly on my own intuition about relevant words, and from my premeditated decision about what kind of graph would make an interesting analysis. I deleted collocates that did not seem useful, and requested other terms to see if they would link up to the existing map. In this sense, human intuition and machine reading work together. Furthermore, I argue that the act of creating this map requires the skills of close reading as well as a pre-existing knowledge about the text. Organizing the map required a great deal of interpretation and choices on my part, and was explicitly interactive. I did not simply plug in a text and wait passively for the results, but actively played with the results in order to produce a framework for analysis. 
 
 ![S&S links](https://github.com/jennaherdman/Austen-text-mining/blob/master/sense-collocation.jpeg?raw=true) 
 
+Collocate linked map in Sense and Sensibility. Made using the Links tool in Voyant.
+
 [Follow this link for an interactive version of this graph](http://voyant-tools.org/?corpus=b521a70350c06325e841ed66af5c4e29&mode=corpus&view=CollocatesGraph).
 
-* why such a discrepancy between “Marianne” and “Marianne’s”? 
-* requires a lot of intuition/cultivation by the person using the tool, not simply generated 
-* necessitates “playing” with the graph 
 
 <h2>Conclusions</h2>
-
-* some of Voyant’s tools are inaccessible, require a lot of concentration in clicking and hand-eye coordination 
-* the act of creating the graph is a form of reading and analysis: making informed choices about how to structure and program each one 
-* future studies could look at sentiment analysis by chapter - [see Julia Silge](http://juliasilge.com/blog/Life-Changing-Magic/). 
-* useful for undergraduate classes: unpacking the text, looking for patterns, critiquing their results 
 
 Stephen Ramsay speaks optimistically of the following: 
 we can envision machines that assist the literary critical scholar at the stage at which all truly illuminating engagements begin: that point when the reading of the text becomes a re-creation (perhaps even a recreation) of the text according to new rules – a playful quest for the patterns that the critic will hold up as illustrative of an un-recreated original (171). 
@@ -83,11 +75,6 @@ On that note, I am also concerned with Voyant’s glitches and resulting inacces
 
 
 <h2>Something extra: Google Ngram graph</h2>
-
-tldr;
-
-* codex is mysterious: represents the relative frequencies of a term or a phrase in all of the books published that year and that are archived on Google books 
-* we must interrogate the archive itself - what is excluded? 
 
 Google Ngrams is a tool created for mining the Google Books corpus for linguistic data. Basically, you can search for a word, or several words, in Google Ngrams, and it will show you the frequencies of that word across the entire digitized corpus. Arguably, this tool can be used to trace the evolution of language, such as the popularity of certain words. Though this graph does not pertain directly to the work with Voyant, I included it for those interested in critiquing Google's interfaces and in looking at Austen's popularity more generally. 
 
@@ -105,7 +92,7 @@ Google Ngrams is a tool created for mining the Google Books corpus for linguisti
 
 An article entitled “The Pitfalls of Using Google Ngram to Study Language” from *The Wire* in 2015 points to despite the optimistic claims of how Google NGrams will enable the study of language, errors in OCR (i.e. the long S), the skewed corpus (due to an overabundance of scientific literature), and the large variety of genres and kinds of books in the twentieth century, and crappy metadata – which is automated and prone to error in the dates of publication. The article claims that while errors in Google Books are updated, this data was only updated on Ngram viewer once in the past three years. Furthermore, the metadata – the information about the scanned book like author, genre, etc., is largely automated and unreliable. Furthermore, Google Ngrams relies on the printed word in the book form as authoritative when it comes to the prevalence of language and ideas. What about print culture, oral history, the development of spoken language? Why, in the “digital revolution,” should we limit this kind of mining of information to the confines of what happened to be printed in book form? Is this to Google’s advantage, or to our advantage, or just its convenience? Though I concur that Google Ngram is a powerful tool, a good use of it cannot be done without asking these questions and keeping them in mind while analyzing the graph. 
 
-##Thank you! 
+<h1>Thank you!</h1>
 
 <center><h2>Works Cited</center></h2>
 Austen, Jane. Mansfield Park. n.p. n.d. Project Gutenberg. Web. 28 Oct. 2016. 
