@@ -1,5 +1,7 @@
 <center><h1>Welcome!</h1></center>
 
+![Jane Austen](https://upload.wikimedia.org/wikipedia/commons/f/f9/Jane_Austen_1870_cropped.jpg)
+
 
 This project applies tools from the digital text-mining platform Voyant to four Jane Austen novels, and critiques the effectiveness, accessibility, and scholarly potential of these applications. In doing so, I experiment with what N. Katherine Hayles called the “porous boundaries” of human interpretation and machine pattern recognition (73) by analyzing patterns of romance in the novels. Nineteenth-century texts are often available for free download and are rich resources for experimenting with text mining tools, and Jane Austen’s status as a literary giant within the canon means that she is a useful resource upon which to experiment with new methodologies. In this analysis, I ask: does this visualization contribute anything to Austen scholarship and, if so, could this research be used for pedagogical purposes? Is this experiment an example of an Austen scholar becoming more “digitally literate,” or does it detract from traditional methods of close reading and analysis?
 
