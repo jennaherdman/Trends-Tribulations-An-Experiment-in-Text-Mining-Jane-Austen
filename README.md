@@ -1,4 +1,4 @@
-<h1>Welcome!</h1>
+<h1>Trends & Tribulations: An Experiment in Text-Mining Jane Austen</h1>
 
 ![Jane Austen](https://upload.wikimedia.org/wikipedia/commons/f/f9/Jane_Austen_1870_cropped.jpg)
 
